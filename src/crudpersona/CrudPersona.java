@@ -5,6 +5,8 @@
  */
 package crudpersona;
 
+import formularios.sistema;
+
 /**
  *
  * @author JUAN
@@ -16,6 +18,10 @@ public class CrudPersona {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        sistema vista = new sistema();
+        
+        vista.setVisible(true);
+        vista.setLocationRelativeTo(null);
     }
     
 }

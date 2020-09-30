@@ -23,7 +23,7 @@ public class conexionSQL {
             Class.forName("com.mysql.jdbc.Driver");
             conectar = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/base_persona", "root", "");
             
-            JOptionPane.showMessageDialog(null, "conexion exitosa");
+//            JOptionPane.showMessageDialog(null, "conexion exitosa");
             
         } catch(Exception e){
             JOptionPane.showMessageDialog(null, "Error de conexion " + e.getMessage());
